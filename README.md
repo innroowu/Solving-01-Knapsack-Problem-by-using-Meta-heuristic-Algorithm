@@ -40,14 +40,14 @@ Simulated annealing is a probabilistic variation of Hill Climbing that allows th
 4.	If new solution’s fitness value is better than previous solution, then update it.
 5.	If is not, perform Annealing. The solution is then updated if it matches the formula.
 ### $$r≤exp(Δf/T)$$
-     # Delta f (Δf) = Difference between the fitness values of current and new solution  
-     # Random num (r) = random float number between 0-1  
-     # T = temperature  
+          # Delta f (Δf) = Difference between the fitness values of current and new solution  
+          # Random num (r) = random float number between 0-1  
+          # T = temperature  
 6.	If it’s better than best solution ,than update it.
 7.	Whether it is updated or not, the cooling action must be performed at the end of the iteration.  
 ### $$T=T×Rₜ$$
-     # T = temperature
-     # Rₜ = depends on the desired convergence speed
+          # T = temperature
+          # Rₜ = depends on the desired convergence speed
 8.	Execute the next iterations at the new temperature state
 9.	Make a line chart according to the number of iteration and the best solution found in each iteration
 

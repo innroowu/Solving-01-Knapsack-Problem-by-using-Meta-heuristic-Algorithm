@@ -112,8 +112,9 @@ if __name__ == "__main__":
     else:
         #先判斷所有object的weight總和是否大於capacity
         if checkMaxWeight() > capacity:
-                #可輸入需要迭代?次
-                #Iteration = int(input("Iteration: "))
+            
+                #可輸入需要迭代?次：Iteration = int(input("Iteration: "))
+                #設定迭代500次
                 Iteration = 500
 
                 #執行Hill CLimbing Algo
